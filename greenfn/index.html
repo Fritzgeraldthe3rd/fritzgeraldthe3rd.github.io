@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAHHH</title>
+    <script>
+        window.onload = function() {
+            var newWindow = window.open("about:blank");
+            if (newWindow) { // Ensure the new window was opened successfully (e.g., not blocked by pop-up blocker)
+                newWindow.document.body.style.margin = '0';
+                newWindow.document.body.style.height = '100vh';
+
+                var iframe = newWindow.document.createElement('iframe');
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.border = 'none';
+                iframe.src = 'https://greenfahhh.zjhmz.cn'; // Replace with the URL you want to embed
+
+                newWindow.document.body.appendChild(iframe);
+            } else {
+                alert("Press Allow to get to the site! ");
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Site should've opened up in a new tab. Look for a tab named about:blank. If it didn't work, reload the page. You can close this now.</h1>
+</body>
+</html>
