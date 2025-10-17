@@ -12,7 +12,7 @@
 
 ## 🚀 Play now at:
 
-`https://fahhh.warning.cx/`
+`https://fahhh.ns8.org/`
 
 ## ✨ Key Features
 
