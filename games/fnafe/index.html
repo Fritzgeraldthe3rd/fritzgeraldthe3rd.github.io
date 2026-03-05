@@ -40,7 +40,7 @@ var loadingText = document.querySelector("#loading-text");
         loadedBytes += value.length;
         chunks.push(value);
         let mbDone = (loadedBytes / (1024 * 1024)).toFixed(2);
-        let mbTotal = '168.20';
+        let mbTotal = '168.21';
         loadingText.textContent = `LOADING... IF STUCK REFRESH... ${mbDone} MB / ${mbTotal} MB`;
       }
       let fullBuffer = new Uint8Array(received);
