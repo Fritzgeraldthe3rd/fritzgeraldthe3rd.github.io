@@ -9,7 +9,7 @@
   </head>
   <body>
   <div id="loading-text"
-    style="color: white; font-size: 48px; font-family: cursive; text-align: center; margin-top: 20px;"> LOADING... IF STUCK REFRESH...
+    style="color: black; font-size: 48px; font-family: cursive; text-align: center; margin-top: 20px;"> LOADING... IF STUCK REFRESH...
   </div>
     <div id="unity-container">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -40,7 +40,7 @@ var loadingText = document.querySelector("#loading-text");
         loadedBytes += value.length;
         chunks.push(value);
         let mbDone = (loadedBytes / (1024 * 1024)).toFixed(2);
-        let mbTotal = '168.21';
+        let mbTotal = '155.84';
         loadingText.textContent = `LOADING... IF STUCK REFRESH... ${mbDone} MB / ${mbTotal} MB`;
       }
       let fullBuffer = new Uint8Array(received);
